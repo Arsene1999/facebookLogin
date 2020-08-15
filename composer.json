@@ -1,0 +1,23 @@
+{
+    "name":"arsene1999/teste-facebook",
+    "description": "",
+    "minimum-stability": "alpha",
+    "license": "MIT",
+    "authors": [{
+        "name": "joao Victor Dantas"
+    }],
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        
+    }
+}
